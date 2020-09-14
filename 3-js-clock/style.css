@@ -44,19 +44,19 @@ body {
 .hour-tic {
     width: 30%;
     border-bottom: 5px solid #fff;
-    transform: rotate(45deg);
+    transform: rotate(90deg);
 }
 
 .min-tic {
     width: 40%;
     border-bottom: 2.5px solid #fff;
-    transform: rotate(135deg);
+    transform: rotate(90deg);
 }
 
 .sec-tic {
     width: 45%;
     border-bottom: 2px solid red;
-    transform: rotate(200deg);
+    transform: rotate(90deg);
 }
 
 /* current-time area */
