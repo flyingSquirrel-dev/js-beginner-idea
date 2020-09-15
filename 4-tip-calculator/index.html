@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="element bill-amount-container">
+            <label for="bill-amount">Amount:</label>
+            <input type="number" id="bill-amount" placeholder="Type in your bill">
+        </div>
+        <div class="element">
+            <div class="sub-title-select-tip">
+                <label for="tip-range">Select Tip</label>
+                <span id="tip-range-percentage">0</span>
+                <span>%</span>
+            </div>
+            <input type="range" id="tip-range" min="0" max="100" value="0">
+        </div>
+        <div class="element">
+            <p class="sub-title">Tip</p>
+            <p id="total-tip-amount">0</p>
+        </div>
+        <div class="element">
+            <p class="sub-title">Total</p>
+            <p id="total-amount">0</p>
+        </div>
+        <div class="element">
+            <div class="sub-title-split-person">
+                <label for="split-num-of-person">Select Tip</label>
+                <span id="num-of-person">1</span>
+                <span>person</span>
+            </div>
+            <input type="range" id="split-num-of-person" min="1" max="100" value="1">
+        </div>
+        <div class="element">
+            <p class="sub-title">Amount per person</p>
+            <p id="amount-per-person">-</p>
+        </div>
+        <div class="element">
+            <p class="sub-title">Tip per person</p>
+            <p id="tip-per-person">-</p>
+        </div>
+    </div>
+    <script src="./solution.js"></script>
+</body>
+</html>
